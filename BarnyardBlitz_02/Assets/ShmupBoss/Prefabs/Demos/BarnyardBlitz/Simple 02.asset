@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eef59000605ba844ab9b36760ea8492, type: 3}
   m_Name: Simple 02
   m_EditorClassIdentifier: 
-  NumberOfEnemiesToSpawn: 0
+  NumberOfEnemiesToSpawn: 4
   isSpawningEnemiesInRandomOrder: 0
-  TimeBetweenEnemies: 0
+  TimeBetweenEnemies: 1
   isRandomTimeBetweenEnemies: 0
   minTimeBetweenEnemies: 0
   maxTimeBetweenEnemies: 0
-  depthIndex: 0
+  depthIndex: 40
   spawnSide: 0
   spawnSideOffset: 0
   spawnPosition: 0.5
-  isRandomSpawnPosition: 0
-  minRandomSpawnPosition: 0
-  maxRandomSpawnPosition: 0
+  isRandomSpawnPosition: 1
+  minRandomSpawnPosition: 0.168
+  maxRandomSpawnPosition: 0.862
   enemyPrefabs:
   - {fileID: 925397611983249974, guid: ab33ced626cbe8642ab7e5dfa7246793, type: 3}

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e37eabe64148ec4d8b1b7e6377b3802, type: 3}
   m_Name: Wapoint01
   m_EditorClassIdentifier: 
-  NumberOfEnemiesToSpawn: 0
+  NumberOfEnemiesToSpawn: 3
   isSpawningEnemiesInRandomOrder: 0
-  TimeBetweenEnemies: 0
-  isRandomTimeBetweenEnemies: 0
+  TimeBetweenEnemies: 2
+  isRandomTimeBetweenEnemies: 1
   minTimeBetweenEnemies: 0
   maxTimeBetweenEnemies: 0
-  depthIndex: 0
+  depthIndex: 41
   enemyPrefabs:
   - {fileID: 9073520966969135438, guid: 1d518552dad34544caabc813afef0a16, type: 3}

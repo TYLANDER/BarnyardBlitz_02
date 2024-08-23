@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NumberOfEnemiesToSpawn: 4
   isSpawningEnemiesInRandomOrder: 0
-  TimeBetweenEnemies: 0.5
+  TimeBetweenEnemies: 1
   isRandomTimeBetweenEnemies: 0
   minTimeBetweenEnemies: 0
   maxTimeBetweenEnemies: 0
