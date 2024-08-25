@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e37eabe64148ec4d8b1b7e6377b3802, type: 3}
   m_Name: WaypointMissile02
   m_EditorClassIdentifier: 
-  NumberOfEnemiesToSpawn: 1
-  isSpawningEnemiesInRandomOrder: 0
+  NumberOfEnemiesToSpawn: 2
+  isSpawningEnemiesInRandomOrder: 1
   TimeBetweenEnemies: 2
-  isRandomTimeBetweenEnemies: 0
+  isRandomTimeBetweenEnemies: 1
   minTimeBetweenEnemies: 0
   maxTimeBetweenEnemies: 0
   depthIndex: 40

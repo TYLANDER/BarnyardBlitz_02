@@ -22,7 +22,7 @@ MonoBehaviour:
   spawnSide: 0
   spawnSideOffset: 0
   spawnPosition: 0.5
-  isRandomSpawnPosition: 1
+  isRandomSpawnPosition: 0
   minRandomSpawnPosition: 0.168
   maxRandomSpawnPosition: 0.862
   enemyPrefabs:

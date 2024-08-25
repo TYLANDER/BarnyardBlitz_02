@@ -125,9 +125,12 @@ MonoBehaviour:
   collisionDamage: 0
   canTakeCollisions: 0
   collisionCoolDownTime: 0
-  dropRadius: 0
-  drops: []
-  score: 0
+  dropRadius: 0.5
+  drops:
+  - PickupPrefab: {fileID: -2828030701852363457, guid: f38c0ef74df0b3246a848dead9f6b3ab,
+      type: 3}
+    DropChance: 51.6
+  score: 20
   coins: 0
   disableAfterTime: 0
   isEliminatedWhenDisabled: 0
@@ -147,10 +150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   isFollowingDirection: 1
-  diagonal: 0
-  bend: 0
+  diagonal: 0.205
+  bend: 0.109
   isDrawingGizmos: 1
-  pathLength: 0
+  pathLength: 7
 --- !u!114 &5789253190152428261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,15 +508,15 @@ MonoBehaviour:
   overrideDirection: {x: 0, y: 0}
   previewMunitionHierarchy: {fileID: 0}
   stage:
-    Rate: 3
-    MunitionPrefab: {fileID: 218150916915199121, guid: e81515a73a1807c44b15df96de1aea45,
+    Rate: 2
+    MunitionPrefab: {fileID: 218150916915199121, guid: 74f2332da7207fa49afdc30b845d1874,
       type: 3}
     MunitionScale: {x: 0.3, y: 0.3, z: 0.3}
     ScatterAngle: 0
     BulletsNumber: 3
     ArcAngleSpread: 45
     FiringSFX:
-      ac: {fileID: 8300000, guid: c63425a35e86a2345bc2ef091abc114e, type: 3}
+      ac: {fileID: 8300000, guid: 070e7ce7c48ce7d47bf29ee9d76982c0, type: 3}
       volume: 1
     FiringSfxCoolDownTime: 0
 --- !u!1 &6412425696677940468
