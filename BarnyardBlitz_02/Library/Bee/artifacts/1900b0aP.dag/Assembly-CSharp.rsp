@@ -400,6 +400,7 @@
 "Assets/ShmupBoss/Scripts/FX/FXSpawner/FxSpawnerEnemy.cs"
 "Assets/ShmupBoss/Scripts/FX/FXSpawner/FxSpawnerPlayer.cs"
 "Assets/ShmupBoss/Scripts/FX/Sfx/Base/Sfx.cs"
+"Assets/ShmupBoss/Scripts/FX/Sfx/SfxDrops.cs"
 "Assets/ShmupBoss/Scripts/FX/Sfx/SfxEnemy.cs"
 "Assets/ShmupBoss/Scripts/FX/Sfx/SfxPlayer.cs"
 "Assets/ShmupBoss/Scripts/FX/VisualUpgrade.cs"

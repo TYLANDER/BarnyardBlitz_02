@@ -16267,9 +16267,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: -0.00047761202
     y: 0
-    width: 1
+    width: 1.0009552
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -16321,9 +16321,9 @@ MonoBehaviour:
   viewfieldSource: 0
   inputFieldSize: {x: 0, y: 0}
   zoomFactor: 1
-  verticalAspectRatio: 0
+  verticalAspectRatio: 3
   inputVerticalAspectRatio: 1
-  isDrawingInputField: 0
+  isDrawingInputField: 1
 --- !u!1 &971329454
 GameObject:
   m_ObjectHideFlags: 0
