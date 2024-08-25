@@ -2,16 +2,9 @@
 
 namespace ShmupBoss
 {
-    /// <summary>
-    /// Pickup item that generates an effect in the player when it collides with it (picks it up.)
-    /// </summary>
     [AddComponentMenu("Shmup Boss/Agents/Pickup")]
     public class Pickup : MonoBehaviour
     {
-        /// <summary>
-        /// How many clones of this item will be pooled. Try to use a number close to the maximum you believe 
-        /// will ever be used on screen.
-        /// </summary>
         [Tooltip("How many clones of this item will be pooled. Try to use a number close to the maximum you " +
             "believe will ever be used on screen.")]
         [SerializeField]
@@ -29,6 +22,14 @@ namespace ShmupBoss
         [SerializeField]
         private PickupEffect[] pickupEffects;
 
+        private SfxDrops sfxDrops;
+
+        private void Awake()
+        {
+            // Get the SfxDrops component if it exists on the same GameObject
+            sfxDrops = GetComponent<SfxDrops>();
+        }
+
         private void OnTriggerEnter2D(Collider2D collision)
         {
             HitByPlayer(collision);
@@ -44,8 +45,8 @@ namespace ShmupBoss
                 {
                     return;
                 }
-               
-                for(int i = 0; i < pickupEffects.Length; i++)
+
+                for (int i = 0; i < pickupEffects.Length; i++)
                 {
                     PickupType pickupType = pickupEffects[i].Type;
                     int amount = pickupEffects[i].Amount;
@@ -77,7 +78,7 @@ namespace ShmupBoss
                             break;
 
                         case PickupType.Lives:
-                            if(Level.Instance != null)
+                            if (Level.Instance != null)
                             {
                                 Level.Instance.AdjustPlayerLives(amount);
                             }
@@ -132,7 +133,13 @@ namespace ShmupBoss
                     player.NotifiyOfPickup(pickupType);
                 }
 
-                if(PickupPool.Instance != null)
+                // Play the pickup sound before despawning
+                if (sfxDrops != null)
+                {
+                    sfxDrops.PlayPickupSound();
+                }
+
+                if (PickupPool.Instance != null)
                 {
                     PickupPool.Instance.Despawn(gameObject);
                 }

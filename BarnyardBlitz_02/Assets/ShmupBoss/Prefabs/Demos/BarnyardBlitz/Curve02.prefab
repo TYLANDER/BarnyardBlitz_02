@@ -489,7 +489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8890118381089500348}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.52, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -585,7 +585,10 @@ MonoBehaviour:
   collisionCoolDownTime: 0
   dropRadius: 0
   drops:
-  - PickupPrefab: {fileID: 1863147663301774572, guid: 1a549eecba9d81d4b83ced0d7d3a0fff,
+  - PickupPrefab: {fileID: -2828030701852363457, guid: f38c0ef74df0b3246a848dead9f6b3ab,
+      type: 3}
+    DropChance: 100
+  - PickupPrefab: {fileID: 5413077763658140179, guid: 92f42774821544e4a98c70448d558f13,
       type: 3}
     DropChance: 100
   score: 50
@@ -610,10 +613,10 @@ MonoBehaviour:
   isFollowingDirection: 1
   CurvePath:
     ControlPoints:
-    - {x: 5.8925886, y: 13.108727}
-    - {x: -0.38676643, y: 4.713138}
-    - {x: -10.954085, y: -3.2112334}
-    - {x: -1.049859, y: -14.5683155}
+    - {x: -1.725193, y: 14.320206}
+    - {x: 11.373485, y: 8.003703}
+    - {x: -15.697537, y: -0.54456055}
+    - {x: 2.4718118, y: -14.3246355}
     CurvePoints: []
   HandleSize: 0.5
 --- !u!114 &1417078821354177414

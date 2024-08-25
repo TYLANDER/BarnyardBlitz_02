@@ -43,7 +43,6 @@ namespace ShmupBoss
                 Debug.Log("SfxSource.cs: SfxSource is being asked to play a clip which is empty, " +
                     "please double check that all of your sound effects have audio " +
                     "clips attached to them.");
-
                 return;
             }
 
@@ -56,16 +55,20 @@ namespace ShmupBoss
 
             AudioSource source;
 
-            // If there is no more available audio sources in the pool, and the audio sources currently 
-            // playing do not exceed the max simultaneous audio clips limit a new audio source is created.
+            // If no sources are available in the pool, either create a new one or reuse one that's currently playing.
             if (audioSourcesPool.Count == 0)
             {
                 if (audioSourcesInUse.Count >= ProjectConstants.MaxSimultaneousAudioClips)
                 {
-                    return;
+                    // Force stop the oldest audio source and reuse it.
+                    source = audioSourcesInUse[0];
+                    audioSourcesInUse.RemoveAt(0);
+                    source.Stop();
                 }
-
-                source = CreateNewSfxPlayer(audioClip);
+                else
+                {
+                    source = CreateNewSfxPlayer(audioClip);
+                }
             }
             else
             {
@@ -79,6 +82,7 @@ namespace ShmupBoss
             source.volume = volume;
             source.Play();
         }
+
 
         /// <summary>
         /// Culls the audio sources in use if this has not already happened this frame.
