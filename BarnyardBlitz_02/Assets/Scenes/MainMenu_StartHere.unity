@@ -312,7 +312,7 @@ PrefabInstance:
     - target: {fileID: 6602457674904518400, guid: c31cffeb0cba6c5449c55faf0a970575,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316653065093634077, guid: c31cffeb0cba6c5449c55faf0a970575,
         type: 3}
@@ -337,27 +337,15 @@ PrefabInstance:
     - target: {fileID: 7776203640673669109, guid: c31cffeb0cba6c5449c55faf0a970575,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8544015557610880212, guid: c31cffeb0cba6c5449c55faf0a970575,
         type: 3}
       propertyPath: m_text
-      value: 'A special thanks to:
-
-
-        Meshtint Studio - Farm Models
-
-        Ebal
-        Studios - Shmup Boss game engine and models
-
-        Alan Dalcastagne da
-        Cunha - Farm Animal Sound Effects
-
-        Freakgames Assets - F14 Fighter
-        Jet (Soon)
-
-
-'
+      value: "Meshtint Studio - Farm Models\nEbal Studios - Shmup Boss game engine
+        and models\nAlan Dalcastagne da Cunha - Farm Animal Sound Effects\nFreakgames
+        Assets - F14 Fighter Jet (Soon)\n\nA special thanks to: Eric Diem for showing
+        me the beauty of shmups. \n"
       objectReference: {fileID: 0}
     - target: {fileID: 8544015557610880212, guid: c31cffeb0cba6c5449c55faf0a970575,
         type: 3}
