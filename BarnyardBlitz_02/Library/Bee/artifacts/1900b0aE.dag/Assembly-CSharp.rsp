@@ -469,6 +469,8 @@
 "Assets/ShmupBoss/Scripts/Level/Multiplier.cs"
 "Assets/ShmupBoss/Scripts/MainMenu/GameManager.cs"
 "Assets/ShmupBoss/Scripts/MainMenu/UI/Base/MainMenuSubMenu.cs"
+"Assets/ShmupBoss/Scripts/MainMenu/UI/CreditsMenu.cs"
+"Assets/ShmupBoss/Scripts/MainMenu/UI/HowToPlay.cs"
 "Assets/ShmupBoss/Scripts/MainMenu/UI/LevelButton.cs"
 "Assets/ShmupBoss/Scripts/MainMenu/UI/LevelsMenu.cs"
 "Assets/ShmupBoss/Scripts/MainMenu/UI/MainMenu.cs"

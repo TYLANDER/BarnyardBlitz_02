@@ -129,7 +129,7 @@ MonoBehaviour:
   collisionCoolDownTime: 1
   dropRadius: 2
   drops:
-  - PickupPrefab: {fileID: 1744473041054804548, guid: 480f9f7ea6526154796c3370025553e9,
+  - PickupPrefab: {fileID: -2828030701852363457, guid: bd31011fb1e3426438e86c41fda9bb58,
       type: 3}
     DropChance: 100
   score: 10
@@ -230,9 +230,9 @@ MonoBehaviour:
   CurvePath:
     ControlPoints:
     - {x: -7.236369, y: 8.730089}
-    - {x: 4.4379663, y: 9.214158}
-    - {x: 0.33654976, y: -0.6349578}
-    - {x: 0.52221394, y: -12.236373}
+    - {x: 0.6873183, y: 9.11167}
+    - {x: -6.8884397, y: 0.7357118}
+    - {x: 1.6324811, y: -12.057573}
     CurvePoints: []
   HandleSize: 0.65
 --- !u!114 &6305541965953552044

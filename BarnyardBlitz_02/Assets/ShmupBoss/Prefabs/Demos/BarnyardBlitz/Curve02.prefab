@@ -587,10 +587,10 @@ MonoBehaviour:
   drops:
   - PickupPrefab: {fileID: -2828030701852363457, guid: f38c0ef74df0b3246a848dead9f6b3ab,
       type: 3}
-    DropChance: 100
-  - PickupPrefab: {fileID: 5413077763658140179, guid: 92f42774821544e4a98c70448d558f13,
+    DropChance: 32.7
+  - PickupPrefab: {fileID: -2828030701852363457, guid: bd31011fb1e3426438e86c41fda9bb58,
       type: 3}
-    DropChance: 100
+    DropChance: 56.1
   score: 50
   coins: 0
   disableAfterTime: 0

@@ -120,7 +120,8 @@ MonoBehaviour:
   shield: 0
   invincibilityTimeAfterSpawn: 1
   isPassthroughWhenInvincible: 1
-  munitionWeapons: []
+  munitionWeapons:
+  - {fileID: 70330854745458730}
   particleWeapons: []
   isTriggeringMunitionFXWhenHit: 1
   collisionDamage: 5
@@ -128,7 +129,7 @@ MonoBehaviour:
   collisionCoolDownTime: 1
   dropRadius: 2
   drops:
-  - PickupPrefab: {fileID: 1744473041054804548, guid: 480f9f7ea6526154796c3370025553e9,
+  - PickupPrefab: {fileID: -2828030701852363457, guid: f38c0ef74df0b3246a848dead9f6b3ab,
       type: 3}
     DropChance: 100
   score: 10
@@ -230,7 +231,7 @@ MonoBehaviour:
     ControlPoints:
     - {x: 7.6093826, y: 8.43168}
     - {x: -4.066633, y: 8.468138}
-    - {x: 2.2761946, y: -1.1571665}
+    - {x: 9.192703, y: -0.66882974}
     - {x: -0.37300777, y: -12.385575}
     CurvePoints: []
   HandleSize: 0.65

@@ -789,6 +789,7 @@ GameObject:
   - component: {fileID: 2738227293723219850}
   - component: {fileID: -4011243396057374832}
   - component: {fileID: -2209110399665262580}
+  - component: {fileID: -8938223655220121060}
   m_Layer: 0
   m_Name: Farm Pig 1
   m_TagString: Untagged
@@ -932,6 +933,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: {fileID: 8300000, guid: 5f51e178495fa2443a9c4f6735e1f3ae, type: 3}
   volume: 1
+--- !u!114 &-8938223655220121060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6307188693991545771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9282b16c1e7e0e4993befa804b1c066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xRotationSpeed: 5
+  yRotationSpeed: 5
+  zRotationSpeed: 5
 --- !u!1 &6419960532257490284
 GameObject:
   m_ObjectHideFlags: 0

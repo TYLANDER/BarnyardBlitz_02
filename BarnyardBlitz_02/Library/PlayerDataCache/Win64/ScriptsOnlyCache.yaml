@@ -85,6 +85,17 @@ ScriptsOnlyBuild:
     - ShmupBoss.WeaponRateController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -133,10 +144,30 @@ ScriptsOnlyBuild:
     - ShmupBoss.volumetricACTriggeredByLevelUIEvent
     - ShmupBoss.volumetricACTriggeredByPlayerEvent
     - TimedRate
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
@@ -391,6 +422,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 58
@@ -426,6 +459,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17048}
     - Class: 114
+      Script: {instanceID: 17312}
+    - Class: 114
       Script: {instanceID: 17568}
     - Class: 114
       Script: {instanceID: 17718}
@@ -448,11 +483,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19188}
     - Class: 114
+      Script: {instanceID: 19384}
+    - Class: 114
       Script: {instanceID: 19416}
     - Class: 114
       Script: {instanceID: 19512}
     - Class: 114
       Script: {instanceID: 19556}
+    - Class: 114
+      Script: {instanceID: 19652}
     - Class: 114
       Script: {instanceID: 19688}
     - Class: 114
@@ -460,9 +499,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20324}
     - Class: 114
+      Script: {instanceID: 20398}
+    - Class: 114
       Script: {instanceID: 20658}
     - Class: 114
       Script: {instanceID: 21068}
+    - Class: 114
+      Script: {instanceID: 21146}
     - Class: 114
       Script: {instanceID: 21224}
     - Class: 114
@@ -1980,6 +2023,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d50a2a17c25a76cfff0d2691cf0aa686
+    assemblyName: Assembly-CSharp
+    namespaceName: ShmupBoss
+    className: CreditsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 755eff07ed4678cd89eef4bf89c2271d
+    assemblyName: Assembly-CSharp
+    namespaceName: ShmupBoss
+    className: HowToPlayMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu_StartHere.unity
