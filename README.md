@@ -2,7 +2,7 @@
 
 
 ![License] None Yet
-![Release](https://img.shields.io/github/release/[YourUsername]/[RepoName])
+![Release]https://github.com/TYLANDER/BarnyardBlitz_02/releases/tag/v0.2
 
 ## Table of Contents
 
@@ -20,28 +20,26 @@
 
 ## Overview
 
-[Your Game Title] is a [genre] game developed using the Unity engine, inspired by classic [influences/inspirations]. This game combines [unique aspects or features] with an engaging experience, suitable for players who enjoy [target audience or genre].
+Barnyard Blitz is a shmup game developed using the Unity engine, inspired by classic CAVE shmups. This game combines classic shmup gameplay with a modern game engine, suitable for players who enjoy shoot em ups and farm animals.
 
 You can download the latest version from [Itch.io](https://[YourItchIoPage].itch.io/[YourGameTitle]).
 
 ## Features
 
-- **Engaging Gameplay:** [Brief description of the gameplay mechanics]
-- **Stunning Graphics:** [Description of the visual style, e.g., pixel art, 3D, retro]
-- **Dynamic Soundtrack:** [Mention if you have original music or notable sound effects]
-- **Multiple Levels:** [Number of levels or stages included]
-- **Power-ups and Abilities:** [Description of any power-ups or special abilities]
-- **[Additional Features]:** [e.g., Leaderboards, Multiplayer, Story Mode, etc.]
+- **Engaging Gameplay:** Classic frantic Shmup gameplay with high bullet density. 
+- **Stunning Graphics:** Updated graphics for a modern feel. 
+- **Power-ups and Abilities:** Farm Animals give you power ups. (More Coming Soon)
+- **Additional Features:** High Score Counter
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots\BB_CoverArt_01_Md@2x.jpg)
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
 
 ## Gameplay
 
-In [Your Game Title], players take on the role of [character/role] in a quest to [main objective]. As they progress, they will encounter [brief description of enemies, obstacles, and challenges]. The game is designed to be [difficulty level], making it accessible for both newcomers and veterans of the genre.
+In Barnyard Blitz, players take on the role of a liberated farm animal pilot in a quest to free their comraded from alien enslavement. As they progress, they will encounter waves of enemy ships of varrying types and powers. The game is designed to be kinda hard, making it accessible for both newcomers and veterans of the genre.
 
 ### Controls
 
@@ -58,13 +56,13 @@ In [Your Game Title], players take on the role of [character/role] in a quest to
 - **Processor:** Probably Anything
 - **Memory:** Super Low
 - **Graphics:** Pretty Much Anything
-- **Storage:** Not Much
+- **Storage:** 60MB
 
 ### Download and Install
 
-1. Download the latest release from [Itch.io](https://[YourItchIoPage].itch.io/[YourGameTitle]).
+1. Download the latest release from [Itch.io](https://tylanderr.itch.io/barnyard-blitz).
 2. Extract the downloaded ZIP file.
-3. Run `[GameExecutable].exe` to start the game.
+3. Run `BarnyardBlitz02.exe` to start the game.
 
 ## How to Play
 
@@ -85,7 +83,7 @@ Chicken: Points (More Soon)
 
 ## Roadmap
 
-### Current Version: V0.1
+### Current Version: V0.2
 - Working Game with 1 level of enemies and boss. 
 - No current Major Bugs
 - Animal Pickups Included
@@ -111,7 +109,6 @@ We welcome contributions to the game! To get started:
 5. Push to the branch (`git push origin feature/[feature-name]`).
 6. Open a Pull Request.
 
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 
@@ -133,4 +130,4 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 
 - **Email:** schmidt197@gmail.com
 - **Twitter:** @tylerschmidt
-- **Itch.io:** [YourItchIoPage](https://[YourItchIoPage].itch.io)
+- **Itch.io:** https://tylanderr.itch.io/
