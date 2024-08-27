@@ -855,7 +855,11 @@ MonoBehaviour:
   poolLimit: 4
   pickupEffects:
   - pickupType: 0
-    amount: 50
+    amount: 10
+  - pickupType: 10
+    amount: 100
+  - pickupType: 3
+    amount: 5
 --- !u!114 &2604064047013567880
 MonoBehaviour:
   m_ObjectHideFlags: 0

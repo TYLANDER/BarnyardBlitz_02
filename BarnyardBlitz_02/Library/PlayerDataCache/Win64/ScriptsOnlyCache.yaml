@@ -15,11 +15,13 @@ ScriptsOnlyBuild:
     - ShmupBoss.CurveMover
     - ShmupBoss.CurveWaveData
     - ShmupBoss.DespawningField
+    - ShmupBoss.DirectionalMover
     - ShmupBoss.Disposable
     - ShmupBoss.Enemy
     - ShmupBoss.EnemyDetonator
     - ShmupBoss.EnemyPool
     - ShmupBoss.EnemyShooter
+    - ShmupBoss.FXEliminator
     - ShmupBoss.FXPool
     - ShmupBoss.FiniteSpawner
     - ShmupBoss.FlashFXEnemy
@@ -46,6 +48,8 @@ ScriptsOnlyBuild:
     - ShmupBoss.MissileMoverFollowingPlayer
     - ShmupBoss.MissileMoverFollowingRandomEnemy
     - ShmupBoss.MissileMoverSideSpawnable
+    - ShmupBoss.MoverRotator
+    - ShmupBoss.MoverSpeedCurveControl
     - ShmupBoss.Multiplier
     - ShmupBoss.MultiplierData
     - ShmupBoss.MunitionHitFX
@@ -68,7 +72,6 @@ ScriptsOnlyBuild:
     - ShmupBoss.SfxDrops
     - ShmupBoss.SfxEnemy
     - ShmupBoss.SfxPlayer
-    - ShmupBoss.SfxSource
     - ShmupBoss.SideSpawnableWaveData
     - ShmupBoss.SimpleMover
     - ShmupBoss.SimpleRotator
@@ -94,6 +97,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -234,8 +240,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17456}
     - Class: 114
       Script: {instanceID: 17476}
-    - Class: 114
-      Script: {instanceID: 17504}
     - Class: 114
       Script: {instanceID: 17594}
     - Class: 114
@@ -501,6 +505,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20424}
     - Class: 114
       Script: {instanceID: 20512}
+    - Class: 114
+      Script: {instanceID: 20524}
     - Class: 114
       Script: {instanceID: 20686}
     - Class: 114
