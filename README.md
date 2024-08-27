@@ -34,8 +34,9 @@ You can download the latest version from [Itch.io](https://[YourItchIoPage].itch
 ## Screenshots
 
 ![Screenshot 1](screenshots\BB_CoverArt_01_Md@2x.jpg)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 2](screenshots\Screenshot01.png)
+![Screenshot 3](screenshots\Screenshot02.png)
+![Screenshot 3](screenshots\Screenshot03.png)
 
 ## Gameplay
 
